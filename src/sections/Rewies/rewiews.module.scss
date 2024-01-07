@@ -1,0 +1,35 @@
+$green_color: #495E57;
+$yellow_color: #F4CE14;
+$white_color: #EDEFEE;
+$black_color: #333333;
+$red_color: #A50000;
+$light_text_color: #9C9C9C;
+
+.section {
+  background-color: $white_color;
+}
+
+.border{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 55px 39px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 47px;
+}
+
+.rewiews {
+  display: flex;
+  flex-direction: row;
+  row-gap: 44px;
+  column-gap: 94px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.title {
+  color: $black_color;
+}

@@ -1,0 +1,37 @@
+$green_color: #495E57;
+$yellow_color: #F4CE14;
+$white_color: #EDEFEE;
+$black_color: #333333;
+$red_color: #A50000;
+$light_text_color: #9C9C9C;
+
+.section {
+  background-color: white;
+}
+
+.border{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 70px 39px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 47px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.specialcards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}

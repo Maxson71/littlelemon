@@ -1,0 +1,36 @@
+$yellow_color: #F4CE14;
+$red_color: #A50000;
+$black_color: #333333;
+$white_color: #EDEFEE;
+
+.button {
+  width: 204px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  background: $yellow_color;
+  border-radius: 16px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  .text {
+    color: $black_color;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+  }
+
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: $red_color;
+    .text {
+      color: $white_color;
+    }
+  }
+  &:active {
+    transform: scale(0.7);
+  }
+}

@@ -1,0 +1,52 @@
+@import "reset.css";
+
+$green_color: #495E57;
+$yellow_color: #F4CE14;
+$white_color: #EDEFEE;
+$black_color: #333333;
+$red_color: #A50000;
+$light_text_color: #9C9C9C;
+
+body {
+  background: white;
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h1, h2, h3 {
+  font-family: 'Markazi Text', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 64px;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 400;
+}
+h4 {
+  color: $green_color;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.rewiews-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+

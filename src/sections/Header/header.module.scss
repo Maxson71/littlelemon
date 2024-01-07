@@ -1,0 +1,50 @@
+$yellow_color: #F4CE14;
+$red_color: #A50000;
+$black_color: #333333;
+$white_color: #EDEFEE;
+
+.header{
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+}
+
+.border{
+  display: flex;
+  margin: 0 auto;
+  min-height: 123px;
+  max-width: 1140px;
+  padding: 5px 39px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  flex: 1 0 auto;
+  max-width: 590px;
+  justify-content: space-between;
+
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+
+
+  .navlink {
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      color: $black_color;
+      transform: translateY(-2px);
+    }
+
+    div {
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+}
