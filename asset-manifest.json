@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/littlelemon/static/css/main.e1a761f4.css",
+    "main.js": "/littlelemon/static/js/main.405f9853.js",
+    "static/js/787.0e637884.chunk.js": "/littlelemon/static/js/787.0e637884.chunk.js",
+    "static/media/Rectangle.png": "/littlelemon/static/media/Rectangle.ed9b918f85af92ecd31a.png",
+    "static/media/1.png": "/littlelemon/static/media/1.d0918c164baf6d3c22e9.png",
+    "static/media/2.png": "/littlelemon/static/media/2.9ffde49076e8c15675aa.png",
+    "static/media/3.png": "/littlelemon/static/media/3.999ee32f73778ecb2955.png",
+    "static/media/4.png": "/littlelemon/static/media/4.98f8d962c9ade2e4e9d8.png",
+    "static/media/LogoFooter.png": "/littlelemon/static/media/LogoFooter.c991ffefa1ceecb1a710.png",
+    "index.html": "/littlelemon/index.html",
+    "main.e1a761f4.css.map": "/littlelemon/static/css/main.e1a761f4.css.map",
+    "main.405f9853.js.map": "/littlelemon/static/js/main.405f9853.js.map",
+    "787.0e637884.chunk.js.map": "/littlelemon/static/js/787.0e637884.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1a761f4.css",
+    "static/js/main.405f9853.js"
+  ]
+}
