@@ -7,7 +7,7 @@ import img3 from './3.png';
 
 const SpecialSection = () => {
     return (
-        <section className={style.section}>
+        <section className={style.section} id='specialSection'>
             <div className={style.border}>
                 <div className={style.head}>
                     <h2>This weeks specials</h2>

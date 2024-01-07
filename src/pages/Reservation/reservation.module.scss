@@ -1,0 +1,226 @@
+$green_color: #495E57;
+$yellow_color: #F4CE14;
+$white_color: #EDEFEE;
+$black_color: #333333;
+$red_color: #A50000;
+$light_text_color: #9C9C9C;
+$text_color: #616161;
+
+.title {
+  display: flex;
+  background: $green_color;
+  color: $yellow_color;
+  height: 118px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.border{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 40px 39px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 45px;
+  border-bottom: 2px solid $text_color;
+}
+
+.step {
+  font-family: Inder, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: $text_color;
+}
+
+.activestep {
+  font-family: Inder, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: $red_color;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+.big_input {
+  resize: none;
+  width: 100%;
+  height: 120px;
+  border-radius: 16px;
+  background: $white_color;
+  padding: 20px 16px;
+  color: $light_text_color;
+
+  font-family: Inter, serif;
+  font-size: 20px;
+  font-weight: 700;
+
+  &:focus {
+    color: $green_color;
+    outline: none;
+  }
+  &:focus::after {
+    border-color: $green_color;
+  }
+}
+
+.confirm {
+  width: 400px;
+  height: 80px;
+  border-radius: 16px;
+  background: $yellow_color;
+  padding: 20px 16px;
+  font-family: Inter, serif;
+  font-size: 20px;
+  font-weight: 700;
+
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  background: $yellow_color;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: $black_color;
+
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: $red_color;
+    color: $white_color;
+  }
+  &:active {
+    transform: scale(0.7);
+  }
+}
+
+.input {
+  resize: none;
+  width: 100%;
+  height: 80px;
+  border-radius: 16px;
+  background: $white_color;
+  padding: 20px 16px;
+  color: $light_text_color;
+
+  font-family: Inter, serif;
+  font-size: 20px;
+  font-weight: 700;
+
+  &:focus {
+    color: $green_color;
+    outline: none;
+  }
+  &:focus::after {
+    border-color: $green_color;
+  }
+}
+
+.small_input {
+  width: 400px;
+  height: 80px;
+  border-radius: 16px;
+  background: $white_color;
+  padding: 20px 16px;
+  color: $light_text_color;
+
+  font-family: Inter, serif;
+  font-size: 20px;
+  font-weight: 700;
+
+  &:focus {
+    color: $green_color;
+    outline: none;
+  }
+  &:focus::after {
+    border-color: $green_color;
+  }
+}
+
+.colums {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.radiobox {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.radio {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  font-family: Inter, serif;
+  font-size: 20px;
+  font-weight: 700;
+
+
+  & input[type=radio] {
+    --s: 28px;
+    height: var(--s);
+    aspect-ratio: 1;
+    border: calc(var(--s) / 8) solid $white_color;
+    padding: calc(var(--s) / 8);
+    background: radial-gradient(farthest-side, $green_color 94%, #0000) 50%/0 0 no-repeat content-box;
+    border-radius: 50%;
+    outline-offset: calc(var(--s) / 10);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    font-size: inherit;
+    transition: .3s;
+    &:checked {
+      border-color: $green_color;
+      background-size: 100% 100%;
+    }
+  }
+}
+
+.navigationButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.successful {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}

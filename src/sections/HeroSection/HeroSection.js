@@ -1,6 +1,7 @@
 import style from './hero-section.module.scss';
 import Button from "../../components/Button/Button";
 import img from './Rectangle.png';
+import {Link} from "react-router-dom";
 const HeroSection = () => {
     return (
         <section className={style.section}>
@@ -17,7 +18,7 @@ const HeroSection = () => {
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
-                    <Button text="Reserve a Table"/>
+                    <Link to={"/reservation"}><Button text="Reserve a Table"/></Link>
                 </div>
                 <img className={style.img} src={img} alt=""/>
             </div>
