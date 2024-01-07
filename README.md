@@ -5,7 +5,7 @@ The capstone project of the Meta Front-end Developer course on the Coursera plat
 
 
 ## Links
-- Github: [Code](https://github.com/marventures/little-lemon-app)
+- Github: [Code](https://github.com/Maxson71/LittleLemon)
 
 ## Tech Stack:
 
